@@ -7,10 +7,10 @@ class UserProfile extends Component{
         return(
             <div>
                 <h1>User Profile</h1>
-                <Link to="/">Home</Link>
-                <Link to="./Login">Log In</Link>
-                <Link to="./Credits">Credits</Link>
-                <Link to="./Debits">Debits</Link>
+                <Link to="/">Home </Link>
+                <Link to="./Login"> Log In </Link>
+                <Link to="./Credits"> Credits </Link>
+                <Link to="./Debits"> Debits </Link>
                 
                 <div>Username: {this.props.userName}</div>
                 <div>Member Since: {this.props.memberSince}</div>
