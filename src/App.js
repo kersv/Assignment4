@@ -13,7 +13,9 @@ class App extends Component{
       currentUser: {
         userName: 'Joe Smith',
         memberSince: '07/23/96',
-      }
+      },
+      credits:[],
+      debits:[]
     }
   }
 
@@ -24,6 +26,13 @@ class App extends Component{
   }
 
 
+  addCredit = (e) => {
+    
+  }
+  
+  addDebit = (e) => {
+
+  }
   render(){
     const HomeComponent = () => (<Home accountBalance={this.state.accountBalance}/>);
     const UserProfileComponent = () => (<UserProfile userName={this.state.currentUser.userName} memberSince={this.state.currentUser.memberSince}/>);
