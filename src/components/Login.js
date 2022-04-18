@@ -13,6 +13,7 @@ class LogIn extends Component{
             redirect: false
         }
     }
+    
     handleChange = (e) => {
         const updatedUser = {...this.state.user}
         const inputField = e.target.userName
